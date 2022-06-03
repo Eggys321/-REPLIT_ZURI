@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: ariel, helvetica, sans-serif;
+    font-size:15px;
+     line-height: 1.5;
+     color: rgb(89, 7, 7);
+     /* background-color: rgb(68, 95, 103); */
+    background-color: rgb(128, 128, 128);
+}
+
+
+.container {
+    width: 95%;
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(238, 89, 89) ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: rgb(238, 89, 89);
+    /* background-color: rgb(71, 39, 39); */
+}
+
+/* main section */
+main h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.flex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flex2{
+    width: 55%;
+    
+}
+.flex3{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+h3{
+    font-size: 22px;
+    margin-top: 55px;
+}
+
+/* Contact page */
+.main form{
+    background-color: rgb(246, 232, 225);
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    height: 60vh;
+    padding: 6rem;
+
+}
+
+.main input{
+    width: 50vw;
+    height: 6vh;
+    margin-left: 34px;
+}
+
+.main label{
+    font-size: 25px;
+}
+
+.spread{
+    width: 80%;
+    margin: auto;
+}
+
+/* Registration Page */
+.mains form{
+    background-color: rgb(246, 232, 225);
+        width: 80%;
+        margin: auto;
+        margin-top: 80px;
+        height: 80vh;
+        padding: 6rem;
+
+}
+
+.mains input {
+    width: 40vw;
+    height: 6vh;
+    margin-left: 34px;
+}
+.mains label {
+    font-size: 25px;
+}
+
+footer{
+margin-top: 52px;
+text-align: center;
+font-size: 30px;
+background-color: blue;
+}
+

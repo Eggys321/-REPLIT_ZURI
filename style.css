@@ -24,6 +24,7 @@ a{
     margin-left: 15px;
     position: relative;
     top: 15px;
+    color: black;
     
 }
 a:hover{
@@ -35,7 +36,8 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    color: rgb(238, 89, 89);
+    color: black;
+    /* color: rgb(238, 89, 89); */
     /* background-color: rgb(71, 39, 39); */
 }
 
@@ -97,14 +99,14 @@ h3{
     background-color: rgb(246, 232, 225);
         width: 80%;
         margin: auto;
-        margin-top: 80px;
-        height: 80vh;
-        padding: 6rem;
+        margin-top: 50px;
+        height: 78vh;
+        padding: 4rem;
 
 }
 
 .mains input {
-    width: 40vw;
+    width: 42vw;
     height: 6vh;
     margin-left: 34px;
 }
@@ -112,10 +114,34 @@ h3{
     font-size: 25px;
 }
 
+/* Login Page */
+
+.mainss form {
+    background-color: rgb(246, 232, 225);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* height: 78vh; */
+    padding: 4rem;
+
+}
+.mainss input {
+    width: 42vw;
+    height: 6vh;
+    margin-left: 34px;
+}
+
+.mainss label {
+    font-size: 25px;
+}
+
+
+
 footer{
 margin-top: 52px;
 text-align: center;
 font-size: 30px;
-background-color: blue;
+color: #B7A076;
+background-color: #000000;
 }
 
